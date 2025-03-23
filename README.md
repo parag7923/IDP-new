@@ -12,6 +12,8 @@ venv\Scripts\activate    # On Windows
 
 pip install -r requirements.txt
 
+pip install --force-reinstall streamlit
+
 3]Run the Streamlit App
 
 streamlit run app.py
